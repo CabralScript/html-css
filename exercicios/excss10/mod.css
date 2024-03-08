@@ -1,0 +1,39 @@
+body{
+    background-image: linear-gradient(to left, rgb(16, 16, 236),purple );
+    
+
+}
+main{
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 15px;
+    width:600px;
+    padding: 10px;
+    margin: auto;
+}
+h1#prin{
+    font-family: sans-serif;
+    text-align: center;
+    color: blue ;
+    text-shadow: 1px 1px 0px;
+}
+h2{
+    color: purple;
+    font-family: sans-serif;
+}
+h2::after{
+    content: ' ↓ ';
+}
+.caixa{
+   background-color: #d8932a;
+   height: 300px;
+   width: 300px;
+  border: 10px solid #72490b;;
+   padding: 10px;
+  margin: auto; 
+  outline: 5px dashed #d8932a;
+   
+}
+.margin{
+    margin: 30px 10px 10px 10px;
+}

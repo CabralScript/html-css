@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredericka+the+Great&family=Kaushan+Script&family=Kode+Mono:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Kode+Mono:wght@400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+main{
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 15px purple;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+
+}
+
+body{
+    background-image: linear-gradient(to left, #551955, #720063);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: italic;
+    text-decoration: underline;
+}
+p{
+    text-align: justify;
+    font-family: "Work Sans", sans-serif;
+}
+h2{
+    color: #551955;
+    text-align: center;
+    font-family: "Fredericka the Great", serif;
+    text-shadow: 1px 1px 0px #382138;
+}
+h1{
+    
+    color: #551955;
+    text-align: center;
+    font-family: "Fredericka the Great", serif;
+    font-weight: normal;
+    
+}
+
+  .work-sans{
+    
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  

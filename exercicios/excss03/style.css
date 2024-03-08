@@ -1,0 +1,13 @@
+.div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {background-color: #2D3142;
+    color: #2292A4;
+
+}
+body{background-color: #4C27D0;
+
+}

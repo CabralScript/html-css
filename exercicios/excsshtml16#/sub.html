@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.star.png" type="image/x-icon">
+    <title>Subtraçao</title>
+    <style>
+        body{
+            background-color: black;
+            margin-top: 0%;
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+        main{
+           background-color: black;
+           border-radius: 10px;
+           box-shadow: 1px 1px 3px white;
+           max-width: 800px;
+           min-width: 220px;
+           padding: 20px;
+           margin: auto;
+        }
+        h1{
+            color: #80A0FF;
+           text-align: center;
+        }
+        header{
+           background-image: linear-gradient(to bottom, #000080, #212149  ) ;
+           height: 50px;
+           border-radius: 5px;
+   
+    
+    
+        }
+
+        nav{
+           text-align: center;
+           padding: 20px;
+        }
+        nav  a{
+           color: white;
+           text-decoration: none;
+           padding: 10px;
+           font-weight: bold;
+           transition-duration: 0.5s;
+           border-radius: 5px;
+           text-align: center;
+    
+
+        }
+        nav > a:hover{
+           background-color: #486fe6;
+           color: #000080;
+        }
+        div#res{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Volte para o início</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Calculadora de Subtraçao</h1>
+        <br>
+        <hr>
+        <input type="number" name="t1" id="t1"> - <input type="number" name="t2" id="t2">
+        <input type="bottom" value="Subtrair" onclick="Somar()">
+        <div id="res">Resultado final</div>
+    </main>
+    <script>
+        function Somar(){
+            var tn1 = window.document.getElementById("t1")
+            var tn2 = window.document.querySelector("input#t2")
+            var res = window.document.getElementById("res")
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+            var s = n1 - n2
+            res.innerText = `O resultado final de ${n1} - ${n2} = ${s}`
+        }
+    </script>
+</body>
+</html>

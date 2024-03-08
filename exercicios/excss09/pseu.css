@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to left, #A52502, #390D02);
+    background-attachment: fixed;
+}
+
+main{
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 15px;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1, h2{
+    color: #f7a233;
+    text-align: center;
+    text-shadow: 1px 1px 0px;
+}
+p{
+    text-align: justify;
+}
+h1#principal{
+    color:#bd6d04 ;
+}
+.prin{
+    color: #d5d826 ;
+}
+div{
+    display: inline-block;
+    background-color: lightslategray;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+div:hover{
+    background-color: red;
+}

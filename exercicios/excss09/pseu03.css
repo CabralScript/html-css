@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to left, #A52502, #390D02);
+    background-attachment: fixed;
+}
+
+main{
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 15px;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1, h2{
+    color: #344113;
+    text-align: center;
+    text-shadow: 1px 1px 0px;
+}
+p{
+    text-align: justify;
+}
+
+.prin{
+    color: #ff7300 ;
+    }
+    a{
+        color: red;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    a:visited{
+        color: darkred;
+    }
+    a:hover{
+        color: black;
+        text-decoration: underline;
+    }
+    a:active{
+        color: blue;
+    }
+    div > ul{
+        display: none;
+    }
+    div:hover > ul{
+        display: block;
+    }
+    a::after{
+        content: '[link]' ;
+        text-decoration: none;
+        font-weight: normal;
+        color: darkgray;
+    }
+    p::after{
+        content: '←';
+    }
+    p::before{
+        content: '→';
+    }
+   
