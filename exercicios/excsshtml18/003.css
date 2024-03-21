@@ -1,0 +1,52 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    background: purple url('noiteestrelada.jpg') center bottom no-repeat fixed;
+    background-size: cover;
+   
+   /* background-color: blueviolet;
+    background-image: url('noiteestrelada.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover ;
+    height: 100vh;
+    background-attachment: fixed;
+
+    /* 
+      shorthand background: color > image > position > repeat > size > attachment
+    */
+}
+main{
+    background-color: blue;
+    max-width: 400px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    border: 1px solid purple;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: justify;
+}
+nav{
+    text-align: center;
+}
+nav > a{
+    text-decoration: none;
+    font-family: cursive;
+    color: white;
+    transition: 0.5s;
+     border-radius: 5px;
+     padding: 10px;
+}
+nav > a:hover{
+      background-color: white;
+      color: blue;
+     
+}

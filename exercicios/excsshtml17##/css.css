@@ -1,0 +1,124 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --cor1: #49366B;
+    --cor2: #342C42;
+    --cor3: #5B20C0;
+    --cor4: #74A420;
+    --cor5: #4622CA;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 500;
+}
+.cad{
+    width: 90px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+}
+
+#cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    background-color: #5b20c017;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+
+#title{
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+#senhait{
+    color: white;
+}
+.item{
+    color: white;
+    margin-top: 4px;
+    
+}
+#Gerador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    border: none;
+    background-color: #74A420;
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: 0.5s;
+    
+   
+}
+#Gerador:hover{
+    background-color: #74a42075;
+}
+
+#senha{
+   background-color: #342C42; 
+   border-radius: 8px; 
+   padding-left: 150px;
+   padding-right: 150px;
+   justify-content: space-between;
+   color: white;
+   display: flex;
+   align-items: center;
+   max-width: 400px;
+   width: 100%;
+   margin: 3px;
+   height: 25px;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+#copy{
+    justify-content: left;
+    display: flex;
+    background-color: transparent;
+    color: var(--cor4);
+    border: none;
+    cursor: pointer;
+   transition: 0.5s;
+}
+#copy:hover{
+    color: #74a42075;
+}
+#size{
+    width: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+}
+#size::-webkit-inner-spin-button, #size::-webkit-outer-spin-button{
+    opacity: 1;
+}
+#size:focus{
+    outline: 1px solid var(--cor4);
+}
+#senha_cont{
+    display: none;
+}
+#senha_cont.show{
+    display: flex;
+}

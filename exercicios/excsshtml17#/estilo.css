@@ -7,20 +7,24 @@
     font-family: 'Courier New', Courier, monospace;
 }
 body{
-    background-color: black;
+    
     display: flex;
     align-items: center;
     height: 100vh;
     justify-content: center;
     width: 100%;
+    background-image: url("noiteestrelada.jpg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
 }
 h2{
     color: white;
 }
 #temporizador{
-    background-color: gray;
+    background-color: #8080803d;
     padding: 2rem;
     border-radius: 8px;
+    
 }
 #timer{
     background-color: gray;

@@ -13,10 +13,10 @@ const formatTime = (time) =>{
 }
 
 const addMarkToList = (markIndex, marktime)=>{
-    marksList.innerHTML = `<p> Marca ${markIndex}: ${formatTime(markTime)}`
+    marksList.innerHTML = `<p> Marca ${markIndex}: ${formatTime(marktime)}`
 }
 const marktime = () =>{
-    marks.push(time);
+    marks.push(timer);
     addMarkToList(marks.length,timer)
 }
 
