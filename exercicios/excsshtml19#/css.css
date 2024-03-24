@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+--cor1: #6D9773;
+--cor2: #0C3B2E;
+--cor3: #BB8A52;
+--cor4: #FFBA00;
+
+}
+
+html, body{
+    min-height: 100vh;
+    background-color:darkgray ;
+}
+
+header{
+    background-color: var(--cor2);
+    color: white;
+    text-align: center;
+}
+
+h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: "Passion One", sans-serif;
+    font-size: 10vw;
+}
+header > p{
+     padding-top: 10px;
+     padding-bottom: 50px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.link{
+   text-decoration: none;
+   color: var(--cor3);
+   font-weight: bolder;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.git{
+    text-decoration: none;
+    color: #0C3B2E;
+    font-weight: bolder;
+}
+
+.git:hover{
+    text-decoration: underline;
+}
+
+section > p{
+    padding-bottom: 1em;
+    text-shadow: 1px 1px 0px black;
+   
+}
+
+section{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: "Sriracha", cursive;
+    
+}
+
+.normal{
+    background-color: var(--cor4);
+    color: black;
+    
+    
+}
+
+.img{
+    background-color: #6D9773;
+    color: white;
+    ;
+    background-position: cover;
+    box-shadow: inset 6px 6px 13px 0px #0000006b;
+}
+
+.img > p{
+    background-color: #0c3b2e41;
+    width: 400px;
+}
+
+section#img01{
+    background-image: url("img/imagem1.jpg.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    
+}
+
+section#img02{
+    background-image: url("img/imagem2.jpg.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+section#img03{
+    background-image: url("img/imagem3.jpg.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+section#img04{
+    background-image: url("img/imagem4.jpg.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+footer{
+    background-color: var(--cor1);
+    text-align: center;
+    border-radius: 0px 2px 0px 2px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
