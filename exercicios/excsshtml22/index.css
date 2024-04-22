@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body{
+    font-family: verdana;
+    background-color: gray;
+}
+td{
+    border: 1px solid black;
+    padding: 10px;
+}
+table{
+    /*border-collapse: collapse;*/
+    width: 400px;
+    text-align: center;
+}
+.azul{
+    background-color: firebrick;
+}
+th{
+    border: 1px solid black;
+    padding: 10px;
+}
+caption{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+.not {
+    background-color: firebrick;
+    color: white;
+}
+.white{
+    background-color: white;
+}

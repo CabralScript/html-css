@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table{
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    border-collapse: collapse;
+}
+
+
+
+td{
+    border: 1px solid black;
+    padding: 8px;
+    vertical-align: sub ;
+    text-align: center;
+
+    /* Alinhamento horizontal --> text-align
+    e alinhamento vertical --> vertical-align*/
+}
+.linha{
+    background-color: aquamarine;
+}

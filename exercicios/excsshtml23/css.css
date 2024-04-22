@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+caption{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    padding: 8px;
+}
+th{
+    border: 1px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+    text-align: center;
+}
+table{
+    width: 400px;
+    border-collapse: collapse;
+    color: white;
+  
+}
+.nome{
+    background-color: firebrick;
+
+}
+.prof{
+    background-color: blueviolet;
+    color: white;
+}
+.idade{
+    background-color: blue;
+}
+.Sexo{
+    background-color: chocolate;
+}
+.it{
+    color: black;
+}
+div#cont{
+    overflow-x: auto;
+  /*vai criar uma rolagem lateral na tabela*/
+}

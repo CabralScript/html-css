@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+body{
+    background-color: #251e1e;
+}
+h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+
+caption{
+    font-size: 15px;
+    background-color: firebrick;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px;
+    color: white;
+}
+th{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid orangered;
+    padding: 5px;
+    
+}
+table{
+    width: 400px;
+    border-collapse: collapse;
+    position: relative;
+}
+
+
+thead{
+    background-color: #3a3838;
+    
+    
+}
+thead > tr > th{
+    position: sticky;
+    top: -1;
+    background-color: #3a3838;
+    /*não está funcionando em todas os navegdores.*/
+}
+
+.meio{
+    text-align: center;
+}
+.N{
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+td{
+    border: 1px solid red;
+    padding: 8px;
+    
+   
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+tbody{
+    border: 1px solid red;
+}
+tbody > tr:nth-child(odd){
+   background-color: firebrick;
+   /* efeito zebrado 
+   
+   e pode usar (odd) que é impar. ou seja, vai começar na primeira coluna. 
+   
+   ou pode usar (even) que é par e vai começar na segunda coluna.*/
+}
+tfoot{
+    font-size: 13px;
+    background-color: #3a3838;
+    
+   
+}
