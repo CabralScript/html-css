@@ -1,0 +1,35 @@
+*{
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+
+iframe{
+    width: 95vw;
+    border: 5px solid aqua;
+    height: 400px;
+}
+
+li{
+    list-style-type: none;
+    /* ?\ para remover as bolinhas. */
+}
+
+.esc{
+    display: flex;
+    gap: 20px;
+   
+}
+.lies{
+  
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: darkred;
+  cursor: pointer;
+}
+#myIframe h1
+{color: red;}
