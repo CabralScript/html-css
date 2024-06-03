@@ -1,0 +1,22 @@
+body{
+    background-color: aqua;
+
+}
+h1{
+    color: red;
+}
+
+p{
+    color: yellow;
+    background-color: red;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    color: blue;
+    background-color: violet;
+}
